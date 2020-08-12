@@ -71,22 +71,26 @@
     color: #fff;
   }
 
-  .jumbotron {
+  .jumbotron, section {
     background: #1C1A19;
     position: relative;
   }
 
-  .jumbotron * {
+  .jumbotron * , section *{
     color: #fff;
   }
 
-  .jumbotron h6 {
+  .jumbotron h6, section h6 {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 32px;
   }
+
+  section button {
+    background: #F55800;
+   }
 
   .jumbotron h1 {
     color: #FF6B00;
@@ -113,4 +117,32 @@
       /* background: #262626; */
       width: 193px;
       height: 268px;
+  }
+
+  section {
+    padding: 5em 3em;
+  }
+
+  section img {
+    /* position: absolute; */
+    width: 503.27px;
+    height: 200.1px;
+    top: 25%;
+    right: 2%;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+
+  section h1 {
+    color: #FF6B00;
+    width: 100%;
+    font-size: 56px;
+  }
+
+  section p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 250px;
   }
