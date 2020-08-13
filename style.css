@@ -35,30 +35,21 @@
     list-style: none;
   }
 
+  li a {
+    text-decoration: none;
+  }
+
   /* nav */
   .full-nav {
       display: flex;
       justify-content: space-around;
   }
 
-  header {
-    /* position: absolute;
-    width: 1440px;
-    height: 72px;
-    left: 0px;
-    top: 0px;*/
-    background: #3E3C3C; 
-    padding: 0 7em;
-    height: 50px;
-
-  }
-
   nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background: #3E3C3C; 
+    padding: 0 20px;
   }
-  
+
   nav ul {
     display: flex;
   }
