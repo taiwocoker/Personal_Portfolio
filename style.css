@@ -112,11 +112,12 @@
       position: absolute;
       /* left: 38.69%; */
       right: 19%;
-      top: -0.77%;
+      top: -22.77%;
       bottom: 3.72%;
       /* background: #262626; */
       width: 193px;
       height: 268px;
+      border-radius: 70%;
   }
 
   section {
@@ -145,4 +146,76 @@
     font-size: 16px;
     line-height: 24px;
     max-width: 250px;
+  }
+
+  main img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .groupit {
+    display: flex;
+  }
+
+  .groupit li {
+    margin: 0 5px;
+  }
+
+  .bg-1 {
+    background-image: url(images/bg-1.PNG);
+    width: 100%;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .bg-2 {
+    background-image: url(images/bg-2.PNG);
+    width: 100%;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .bg-3 {
+    background-image: url(images/bg-3.PNG);
+    width: 100%;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .bg-4 {
+    background-image: url(images/bg-4.PNG);
+    width: 100%;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .bg-5 {
+    background-image: url(images/bg-5.PNG);
+    width: 100%;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .bg-6 {
+    background-image: url(images/bg-6.PNG);
+    width: 100%;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .bg-1-footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #3E3C3C;
+  }
+
+  #about {
+    background: #1C1A19;
   }
