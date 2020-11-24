@@ -157,7 +157,6 @@
   }
 
   .bg-1 {
-    background-image: url(images/landing-scene.PNG);
     width: 100%;
     height: 300px;
     background-size: cover;
@@ -165,47 +164,15 @@
     background-repeat: no-repeat;
   }
 
-  .bg-2 {
-    background-image: url(images/snapshot.PNG);
-    width: 100%;
-    height: 300px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+  .cards {
+  width: 18rem;
+  margin-bottom: 20px;
+}
 
-  .bg-3 {
-    background-image: url(images/groupit.PNG);
-    width: 100%;
-    height: 300px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .bg-4 {
-    background-image: url(images/bg-4.PNG);
-    width: 100%;
-    height: 300px;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-
-  .bg-5 {
-    background-image: url(images/bg-5.PNG);
-    width: 100%;
-    height: 300px;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-
-  .bg-6 {
-    background-image: url(images/app_screenshot.PNG);
-    width: 100%;
-    height: 300px;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
+.div-cards {
+  display: flex;
+  justify-content: space-around;
+}
 
   .bg-1-footer {
     bottom: 0;
